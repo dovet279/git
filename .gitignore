@@ -1,0 +1,19 @@
+# Logs
+*.log
+debug.log
+
+# OS cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets
+.env
+.env.local
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
