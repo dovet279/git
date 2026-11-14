@@ -50,7 +50,6 @@ const SnakeSkin SNAKE_SKINS[] = {
 	{ L"image\\chicken_head.png",        L"image\\chicken_head_mask.png",           L"image\\k1_m.png", L"image\\k1_b.png",      L"小鸡头＋ikun①" },
 	{ L"image\\chicken_head.png",        L"image\\chicken_head_mask.png",           L"image\\k2_m.png", L"image\\k2_b.png",      L"小鸡头＋ikun②" },
 	{ L"image\\chicken_head.png",        L"image\\chicken_head_mask.png",           L"image\\k3_m.png", L"image\\k3_b.png",      L"小鸡头＋ikun③" },
-	{ L"image\\man.png",       L"image\\manmask.png",      L"image\\k4_m.png", L"image\\k4_b.png",      L"蓝苹果＋ikun④" },
 };
 const int SNAKE_SKIN_COUNT = sizeof(SNAKE_SKINS) / sizeof(SNAKE_SKINS[0]);
 int snakeSkinIndex = 0;   // 当前蛇皮肤
