@@ -17,3 +17,18 @@ dist/
 build/
 __pycache__/
 *.py[cod]
+
+# Visual Studio build output
+x64/
+Debug/
+Release/
+*.vcxproj.user
+*.ilk
+*.pdb
+
+# Local test artifacts
+_preview/
+shot_*.png
+verify_*.png
+settings_skin_*.png
+render_test.*
