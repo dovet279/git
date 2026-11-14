@@ -346,7 +346,7 @@ int main() {
 		cleardevice();
 		gameboardview();
 		generationfood();
-		putimage(6 * 50, 8 * 50, 50, 50, &gugaheadmask[0], 0, 0, SRCAND);
+		putimage(6 * 50, 8 * 50, 50, 50, &gugahead[0], 0, 0, SRCAND);
 		putimage(6 * 50, 8 * 50, 50, 50, &gugahead[0], 0, 0, SRCPAINT);
 		putimage(6 * 50, 9 * 50, 50, 50, &gugamask[0], 0, 0, SRCAND);
 		putimage(6 * 50, 9 * 50, 50, 50, &guga[0], 0, 0, SRCPAINT);
